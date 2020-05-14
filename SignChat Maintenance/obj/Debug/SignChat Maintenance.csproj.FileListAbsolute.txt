@@ -1,0 +1,25 @@
+Z:\Program Files\OneDrive - Vocational Training Council - Student\Work\FYP\MaintenanceSystem\SignChat Maintenance\SignChat Maintenance\bin\Debug\SignChat Maintenance.exe.config
+Z:\Program Files\OneDrive - Vocational Training Council - Student\Work\FYP\MaintenanceSystem\SignChat Maintenance\SignChat Maintenance\bin\Debug\SignChat Maintenance.exe
+Z:\Program Files\OneDrive - Vocational Training Council - Student\Work\FYP\MaintenanceSystem\SignChat Maintenance\SignChat Maintenance\bin\Debug\SignChat Maintenance.pdb
+Z:\Program Files\OneDrive - Vocational Training Council - Student\Work\FYP\MaintenanceSystem\SignChat Maintenance\SignChat Maintenance\bin\Debug\EntityFramework.dll
+Z:\Program Files\OneDrive - Vocational Training Council - Student\Work\FYP\MaintenanceSystem\SignChat Maintenance\SignChat Maintenance\bin\Debug\EntityFramework.xml
+Z:\Program Files\OneDrive - Vocational Training Council - Student\Work\FYP\MaintenanceSystem\SignChat Maintenance\SignChat Maintenance\bin\Debug\zh-Hant\EntityFramework.resources.dll
+Z:\Program Files\OneDrive - Vocational Training Council - Student\Work\FYP\MaintenanceSystem\SignChat Maintenance\SignChat Maintenance\obj\Debug\SignChat Maintenance.csprojAssemblyReference.cache
+Z:\Program Files\OneDrive - Vocational Training Council - Student\Work\FYP\MaintenanceSystem\SignChat Maintenance\SignChat Maintenance\obj\Debug\SignChat_Maintenance.FrmLogin.resources
+Z:\Program Files\OneDrive - Vocational Training Council - Student\Work\FYP\MaintenanceSystem\SignChat Maintenance\SignChat Maintenance\obj\Debug\SignChat_Maintenance.Properties.Resources.resources
+Z:\Program Files\OneDrive - Vocational Training Council - Student\Work\FYP\MaintenanceSystem\SignChat Maintenance\SignChat Maintenance\obj\Debug\SignChat Maintenance.csproj.GenerateResource.cache
+Z:\Program Files\OneDrive - Vocational Training Council - Student\Work\FYP\MaintenanceSystem\SignChat Maintenance\SignChat Maintenance\obj\Debug\SignChat Maintenance.csproj.CoreCompileInputs.cache
+Z:\Program Files\OneDrive - Vocational Training Council - Student\Work\FYP\MaintenanceSystem\SignChat Maintenance\SignChat Maintenance\obj\Debug\SignChat Maintenance.csproj.CopyComplete
+Z:\Program Files\OneDrive - Vocational Training Council - Student\Work\FYP\MaintenanceSystem\SignChat Maintenance\SignChat Maintenance\obj\Debug\SignChat Maintenance.exe
+Z:\Program Files\OneDrive - Vocational Training Council - Student\Work\FYP\MaintenanceSystem\SignChat Maintenance\SignChat Maintenance\obj\Debug\SignChat Maintenance.pdb
+Z:\Program Files\OneDrive - Vocational Training Council - Student\Work\FYP\MaintenanceSystem\SignChat Maintenance\SignChat Maintenance\obj\Debug\SignChat_Maintenance.FrmHomepage.resources
+Z:\Program Files\OneDrive - Vocational Training Council - Student\Work\FYP\MaintenanceSystem\SignChat Maintenance\SignChat Maintenance\obj\Debug\SignChat_Maintenance.FrmOrganisationList.resources
+Z:\Program Files\OneDrive - Vocational Training Council - Student\Work\FYP\MaintenanceSystem\SignChat Maintenance\SignChat Maintenance\obj\Debug\SignChat_Maintenance.FrmCollectionList.resources
+Z:\Program Files\OneDrive - Vocational Training Council - Student\Work\FYP\MaintenanceSystem\SignChat Maintenance\SignChat Maintenance\obj\Debug\SignChat_Maintenance.FrmCollectionDetails.resources
+Z:\Program Files\OneDrive - Vocational Training Council - Student\Work\FYP\MaintenanceSystem\SignChat Maintenance\SignChat Maintenance\obj\Debug\SignChat_Maintenance.FrmNewCollection.resources
+Z:\Program Files\OneDrive - Vocational Training Council - Student\Work\FYP\MaintenanceSystem\SignChat Maintenance\SignChat Maintenance\obj\Debug\SignChat_Maintenance.FrmOrganisationDetails.resources
+Z:\Program Files\OneDrive - Vocational Training Council - Student\Work\FYP\MaintenanceSystem\SignChat Maintenance\SignChat Maintenance\obj\Debug\SignChat_Maintenance.FrmMyAccount.resources
+Z:\Program Files\OneDrive - Vocational Training Council - Student\Work\FYP\MaintenanceSystem\SignChat Maintenance\SignChat Maintenance\bin\Debug\SignChat Maintenance.exe.manifest
+Z:\Program Files\OneDrive - Vocational Training Council - Student\Work\FYP\MaintenanceSystem\SignChat Maintenance\SignChat Maintenance\bin\Debug\SignChat Maintenance.application
+Z:\Program Files\OneDrive - Vocational Training Council - Student\Work\FYP\MaintenanceSystem\SignChat Maintenance\SignChat Maintenance\obj\Debug\SignChat Maintenance.exe.manifest
+Z:\Program Files\OneDrive - Vocational Training Council - Student\Work\FYP\MaintenanceSystem\SignChat Maintenance\SignChat Maintenance\obj\Debug\SignChat Maintenance.application

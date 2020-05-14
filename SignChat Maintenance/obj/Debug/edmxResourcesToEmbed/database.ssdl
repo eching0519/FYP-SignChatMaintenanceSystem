@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SignChatModel.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.5" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="administrator">
+    <Key>
+      <PropertyRef Name="username" />
+    </Key>
+    <Property Name="username" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="password" Type="varchar" MaxLength="25" Nullable="false" />
+  </EntityType>
+  <EntityType Name="frame">
+    <Key>
+      <PropertyRef Name="signId" />
+      <PropertyRef Name="sequenceNo" />
+    </Key>
+    <Property Name="signId" Type="int" Nullable="false" />
+    <Property Name="sequenceNo" Type="int" Nullable="false" />
+    <Property Name="left_0_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_0_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_0_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_1_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_1_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_1_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_2_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_2_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_2_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_3_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_3_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_3_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_4_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_4_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_4_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_5_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_5_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_5_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_6_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_6_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_6_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_7_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_7_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_7_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_8_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_8_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_8_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_9_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_9_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_9_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_10_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_10_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_10_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_11_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_11_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_11_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_12_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_12_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_12_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_13_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_13_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_13_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_14_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_14_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_14_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_15_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_15_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_15_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_16_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_16_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_16_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_17_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_17_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_17_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_18_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_18_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_18_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_19_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_19_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_19_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_20_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_20_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="left_20_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_0_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_0_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_0_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_1_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_1_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_1_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_2_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_2_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_2_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_3_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_3_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_3_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_4_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_4_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_4_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_5_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_5_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_5_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_6_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_6_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_6_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_7_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_7_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_7_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_8_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_8_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_8_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_9_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_9_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_9_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_10_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_10_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_10_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_11_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_11_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_11_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_12_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_12_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_12_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_13_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_13_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_13_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_14_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_14_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_14_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_15_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_15_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_15_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_16_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_16_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_16_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_17_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_17_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_17_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_18_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_18_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_18_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_19_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_19_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_19_z" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_20_x" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_20_y" Type="decimal" Precision="20" Scale="15" />
+    <Property Name="right_20_z" Type="decimal" Precision="20" Scale="15" />
+  </EntityType>
+  <EntityType Name="organisation">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="email" Type="varchar" MaxLength="25" />
+    <Property Name="address" Type="varchar" MaxLength="100" />
+    <Property Name="tel" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="sign">
+    <Key>
+      <PropertyRef Name="signId" />
+    </Key>
+    <Property Name="signId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="collectionId" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="meaning" Type="varchar" MaxLength="255" Nullable="false" />
+  </EntityType>
+  <EntityType Name="signcollection">
+    <Key>
+      <PropertyRef Name="collectionId" />
+    </Key>
+    <Property Name="collectionId" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="password" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="organisationId" Type="int" Nullable="false" />
+    <Property Name="contactPerson" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="contactPersonEmail" Type="varchar" MaxLength="50" />
+    <Property Name="contactPersonTel" Type="varchar" MaxLength="20" />
+    <Property Name="contactPersonTitle" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <Association Name="frame_fk1">
+    <End Role="sign" Type="Self.sign" Multiplicity="1" />
+    <End Role="frame" Type="Self.frame" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sign">
+        <PropertyRef Name="signId" />
+      </Principal>
+      <Dependent Role="frame">
+        <PropertyRef Name="signId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="sign_fk1">
+    <End Role="signcollection" Type="Self.signcollection" Multiplicity="1" />
+    <End Role="sign" Type="Self.sign" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="signcollection">
+        <PropertyRef Name="collectionId" />
+      </Principal>
+      <Dependent Role="sign">
+        <PropertyRef Name="collectionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="signcollection_fk">
+    <End Role="organisation" Type="Self.organisation" Multiplicity="1" />
+    <End Role="signcollection" Type="Self.signcollection" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="organisation">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="signcollection">
+        <PropertyRef Name="organisationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SignChatModelStoreContainer">
+    <EntitySet Name="administrator" EntityType="Self.administrator" Schema="sign_chat" store:Type="Tables" />
+    <EntitySet Name="frame" EntityType="Self.frame" Schema="sign_chat" store:Type="Tables" />
+    <EntitySet Name="organisation" EntityType="Self.organisation" Schema="sign_chat" store:Type="Tables" />
+    <EntitySet Name="sign" EntityType="Self.sign" Schema="sign_chat" store:Type="Tables" />
+    <EntitySet Name="signcollection" EntityType="Self.signcollection" Schema="sign_chat" store:Type="Tables" />
+    <AssociationSet Name="frame_fk1" Association="Self.frame_fk1">
+      <End Role="sign" EntitySet="sign" />
+      <End Role="frame" EntitySet="frame" />
+    </AssociationSet>
+    <AssociationSet Name="sign_fk1" Association="Self.sign_fk1">
+      <End Role="signcollection" EntitySet="signcollection" />
+      <End Role="sign" EntitySet="sign" />
+    </AssociationSet>
+    <AssociationSet Name="signcollection_fk" Association="Self.signcollection_fk">
+      <End Role="organisation" EntitySet="organisation" />
+      <End Role="signcollection" EntitySet="signcollection" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

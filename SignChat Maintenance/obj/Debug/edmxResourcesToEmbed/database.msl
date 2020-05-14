@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SignChatModelStoreContainer" CdmEntityContainer="database">
+    <EntitySetMapping Name="administrator">
+      <EntityTypeMapping TypeName="SignChatModel.administrator">
+        <MappingFragment StoreEntitySet="administrator">
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="frame">
+      <EntityTypeMapping TypeName="SignChatModel.frame">
+        <MappingFragment StoreEntitySet="frame">
+          <ScalarProperty Name="signId" ColumnName="signId" />
+          <ScalarProperty Name="sequenceNo" ColumnName="sequenceNo" />
+          <ScalarProperty Name="left_0_x" ColumnName="left_0_x" />
+          <ScalarProperty Name="left_0_y" ColumnName="left_0_y" />
+          <ScalarProperty Name="left_0_z" ColumnName="left_0_z" />
+          <ScalarProperty Name="left_1_x" ColumnName="left_1_x" />
+          <ScalarProperty Name="left_1_y" ColumnName="left_1_y" />
+          <ScalarProperty Name="left_1_z" ColumnName="left_1_z" />
+          <ScalarProperty Name="left_2_x" ColumnName="left_2_x" />
+          <ScalarProperty Name="left_2_y" ColumnName="left_2_y" />
+          <ScalarProperty Name="left_2_z" ColumnName="left_2_z" />
+          <ScalarProperty Name="left_3_x" ColumnName="left_3_x" />
+          <ScalarProperty Name="left_3_y" ColumnName="left_3_y" />
+          <ScalarProperty Name="left_3_z" ColumnName="left_3_z" />
+          <ScalarProperty Name="left_4_x" ColumnName="left_4_x" />
+          <ScalarProperty Name="left_4_y" ColumnName="left_4_y" />
+          <ScalarProperty Name="left_4_z" ColumnName="left_4_z" />
+          <ScalarProperty Name="left_5_x" ColumnName="left_5_x" />
+          <ScalarProperty Name="left_5_y" ColumnName="left_5_y" />
+          <ScalarProperty Name="left_5_z" ColumnName="left_5_z" />
+          <ScalarProperty Name="left_6_x" ColumnName="left_6_x" />
+          <ScalarProperty Name="left_6_y" ColumnName="left_6_y" />
+          <ScalarProperty Name="left_6_z" ColumnName="left_6_z" />
+          <ScalarProperty Name="left_7_x" ColumnName="left_7_x" />
+          <ScalarProperty Name="left_7_y" ColumnName="left_7_y" />
+          <ScalarProperty Name="left_7_z" ColumnName="left_7_z" />
+          <ScalarProperty Name="left_8_x" ColumnName="left_8_x" />
+          <ScalarProperty Name="left_8_y" ColumnName="left_8_y" />
+          <ScalarProperty Name="left_8_z" ColumnName="left_8_z" />
+          <ScalarProperty Name="left_9_x" ColumnName="left_9_x" />
+          <ScalarProperty Name="left_9_y" ColumnName="left_9_y" />
+          <ScalarProperty Name="left_9_z" ColumnName="left_9_z" />
+          <ScalarProperty Name="left_10_x" ColumnName="left_10_x" />
+          <ScalarProperty Name="left_10_y" ColumnName="left_10_y" />
+          <ScalarProperty Name="left_10_z" ColumnName="left_10_z" />
+          <ScalarProperty Name="left_11_x" ColumnName="left_11_x" />
+          <ScalarProperty Name="left_11_y" ColumnName="left_11_y" />
+          <ScalarProperty Name="left_11_z" ColumnName="left_11_z" />
+          <ScalarProperty Name="left_12_x" ColumnName="left_12_x" />
+          <ScalarProperty Name="left_12_y" ColumnName="left_12_y" />
+          <ScalarProperty Name="left_12_z" ColumnName="left_12_z" />
+          <ScalarProperty Name="left_13_x" ColumnName="left_13_x" />
+          <ScalarProperty Name="left_13_y" ColumnName="left_13_y" />
+          <ScalarProperty Name="left_13_z" ColumnName="left_13_z" />
+          <ScalarProperty Name="left_14_x" ColumnName="left_14_x" />
+          <ScalarProperty Name="left_14_y" ColumnName="left_14_y" />
+          <ScalarProperty Name="left_14_z" ColumnName="left_14_z" />
+          <ScalarProperty Name="left_15_x" ColumnName="left_15_x" />
+          <ScalarProperty Name="left_15_y" ColumnName="left_15_y" />
+          <ScalarProperty Name="left_15_z" ColumnName="left_15_z" />
+          <ScalarProperty Name="left_16_x" ColumnName="left_16_x" />
+          <ScalarProperty Name="left_16_y" ColumnName="left_16_y" />
+          <ScalarProperty Name="left_16_z" ColumnName="left_16_z" />
+          <ScalarProperty Name="left_17_x" ColumnName="left_17_x" />
+          <ScalarProperty Name="left_17_y" ColumnName="left_17_y" />
+          <ScalarProperty Name="left_17_z" ColumnName="left_17_z" />
+          <ScalarProperty Name="left_18_x" ColumnName="left_18_x" />
+          <ScalarProperty Name="left_18_y" ColumnName="left_18_y" />
+          <ScalarProperty Name="left_18_z" ColumnName="left_18_z" />
+          <ScalarProperty Name="left_19_x" ColumnName="left_19_x" />
+          <ScalarProperty Name="left_19_y" ColumnName="left_19_y" />
+          <ScalarProperty Name="left_19_z" ColumnName="left_19_z" />
+          <ScalarProperty Name="left_20_x" ColumnName="left_20_x" />
+          <ScalarProperty Name="left_20_y" ColumnName="left_20_y" />
+          <ScalarProperty Name="left_20_z" ColumnName="left_20_z" />
+          <ScalarProperty Name="right_0_x" ColumnName="right_0_x" />
+          <ScalarProperty Name="right_0_y" ColumnName="right_0_y" />
+          <ScalarProperty Name="right_0_z" ColumnName="right_0_z" />
+          <ScalarProperty Name="right_1_x" ColumnName="right_1_x" />
+          <ScalarProperty Name="right_1_y" ColumnName="right_1_y" />
+          <ScalarProperty Name="right_1_z" ColumnName="right_1_z" />
+          <ScalarProperty Name="right_2_x" ColumnName="right_2_x" />
+          <ScalarProperty Name="right_2_y" ColumnName="right_2_y" />
+          <ScalarProperty Name="right_2_z" ColumnName="right_2_z" />
+          <ScalarProperty Name="right_3_x" ColumnName="right_3_x" />
+          <ScalarProperty Name="right_3_y" ColumnName="right_3_y" />
+          <ScalarProperty Name="right_3_z" ColumnName="right_3_z" />
+          <ScalarProperty Name="right_4_x" ColumnName="right_4_x" />
+          <ScalarProperty Name="right_4_y" ColumnName="right_4_y" />
+          <ScalarProperty Name="right_4_z" ColumnName="right_4_z" />
+          <ScalarProperty Name="right_5_x" ColumnName="right_5_x" />
+          <ScalarProperty Name="right_5_y" ColumnName="right_5_y" />
+          <ScalarProperty Name="right_5_z" ColumnName="right_5_z" />
+          <ScalarProperty Name="right_6_x" ColumnName="right_6_x" />
+          <ScalarProperty Name="right_6_y" ColumnName="right_6_y" />
+          <ScalarProperty Name="right_6_z" ColumnName="right_6_z" />
+          <ScalarProperty Name="right_7_x" ColumnName="right_7_x" />
+          <ScalarProperty Name="right_7_y" ColumnName="right_7_y" />
+          <ScalarProperty Name="right_7_z" ColumnName="right_7_z" />
+          <ScalarProperty Name="right_8_x" ColumnName="right_8_x" />
+          <ScalarProperty Name="right_8_y" ColumnName="right_8_y" />
+          <ScalarProperty Name="right_8_z" ColumnName="right_8_z" />
+          <ScalarProperty Name="right_9_x" ColumnName="right_9_x" />
+          <ScalarProperty Name="right_9_y" ColumnName="right_9_y" />
+          <ScalarProperty Name="right_9_z" ColumnName="right_9_z" />
+          <ScalarProperty Name="right_10_x" ColumnName="right_10_x" />
+          <ScalarProperty Name="right_10_y" ColumnName="right_10_y" />
+          <ScalarProperty Name="right_10_z" ColumnName="right_10_z" />
+          <ScalarProperty Name="right_11_x" ColumnName="right_11_x" />
+          <ScalarProperty Name="right_11_y" ColumnName="right_11_y" />
+          <ScalarProperty Name="right_11_z" ColumnName="right_11_z" />
+          <ScalarProperty Name="right_12_x" ColumnName="right_12_x" />
+          <ScalarProperty Name="right_12_y" ColumnName="right_12_y" />
+          <ScalarProperty Name="right_12_z" ColumnName="right_12_z" />
+          <ScalarProperty Name="right_13_x" ColumnName="right_13_x" />
+          <ScalarProperty Name="right_13_y" ColumnName="right_13_y" />
+          <ScalarProperty Name="right_13_z" ColumnName="right_13_z" />
+          <ScalarProperty Name="right_14_x" ColumnName="right_14_x" />
+          <ScalarProperty Name="right_14_y" ColumnName="right_14_y" />
+          <ScalarProperty Name="right_14_z" ColumnName="right_14_z" />
+          <ScalarProperty Name="right_15_x" ColumnName="right_15_x" />
+          <ScalarProperty Name="right_15_y" ColumnName="right_15_y" />
+          <ScalarProperty Name="right_15_z" ColumnName="right_15_z" />
+          <ScalarProperty Name="right_16_x" ColumnName="right_16_x" />
+          <ScalarProperty Name="right_16_y" ColumnName="right_16_y" />
+          <ScalarProperty Name="right_16_z" ColumnName="right_16_z" />
+          <ScalarProperty Name="right_17_x" ColumnName="right_17_x" />
+          <ScalarProperty Name="right_17_y" ColumnName="right_17_y" />
+          <ScalarProperty Name="right_17_z" ColumnName="right_17_z" />
+          <ScalarProperty Name="right_18_x" ColumnName="right_18_x" />
+          <ScalarProperty Name="right_18_y" ColumnName="right_18_y" />
+          <ScalarProperty Name="right_18_z" ColumnName="right_18_z" />
+          <ScalarProperty Name="right_19_x" ColumnName="right_19_x" />
+          <ScalarProperty Name="right_19_y" ColumnName="right_19_y" />
+          <ScalarProperty Name="right_19_z" ColumnName="right_19_z" />
+          <ScalarProperty Name="right_20_x" ColumnName="right_20_x" />
+          <ScalarProperty Name="right_20_y" ColumnName="right_20_y" />
+          <ScalarProperty Name="right_20_z" ColumnName="right_20_z" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="organisation">
+      <EntityTypeMapping TypeName="SignChatModel.organisation">
+        <MappingFragment StoreEntitySet="organisation">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="tel" ColumnName="tel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sign">
+      <EntityTypeMapping TypeName="SignChatModel.sign">
+        <MappingFragment StoreEntitySet="sign">
+          <ScalarProperty Name="signId" ColumnName="signId" />
+          <ScalarProperty Name="collectionId" ColumnName="collectionId" />
+          <ScalarProperty Name="meaning" ColumnName="meaning" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="signcollection">
+      <EntityTypeMapping TypeName="SignChatModel.signcollection">
+        <MappingFragment StoreEntitySet="signcollection">
+          <ScalarProperty Name="collectionId" ColumnName="collectionId" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="organisationId" ColumnName="organisationId" />
+          <ScalarProperty Name="contactPerson" ColumnName="contactPerson" />
+          <ScalarProperty Name="contactPersonEmail" ColumnName="contactPersonEmail" />
+          <ScalarProperty Name="contactPersonTel" ColumnName="contactPersonTel" />
+          <ScalarProperty Name="contactPersonTitle" ColumnName="contactPersonTitle" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

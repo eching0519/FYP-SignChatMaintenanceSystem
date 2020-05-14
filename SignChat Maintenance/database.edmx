@@ -1,0 +1,678 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="SignChatModel.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.5" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="administrator">
+          <Key>
+            <PropertyRef Name="username" />
+          </Key>
+          <Property Name="username" Type="varchar" MaxLength="25" Nullable="false" />
+          <Property Name="password" Type="varchar" MaxLength="25" Nullable="false" />
+        </EntityType>
+        <EntityType Name="frame">
+          <Key>
+            <PropertyRef Name="signId" />
+            <PropertyRef Name="sequenceNo" />
+          </Key>
+          <Property Name="signId" Type="int" Nullable="false" />
+          <Property Name="sequenceNo" Type="int" Nullable="false" />
+          <Property Name="left_0_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_0_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_0_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_1_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_1_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_1_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_2_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_2_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_2_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_3_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_3_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_3_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_4_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_4_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_4_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_5_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_5_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_5_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_6_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_6_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_6_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_7_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_7_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_7_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_8_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_8_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_8_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_9_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_9_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_9_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_10_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_10_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_10_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_11_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_11_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_11_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_12_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_12_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_12_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_13_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_13_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_13_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_14_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_14_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_14_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_15_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_15_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_15_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_16_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_16_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_16_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_17_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_17_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_17_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_18_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_18_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_18_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_19_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_19_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_19_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_20_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_20_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="left_20_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_0_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_0_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_0_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_1_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_1_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_1_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_2_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_2_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_2_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_3_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_3_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_3_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_4_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_4_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_4_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_5_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_5_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_5_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_6_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_6_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_6_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_7_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_7_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_7_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_8_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_8_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_8_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_9_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_9_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_9_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_10_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_10_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_10_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_11_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_11_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_11_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_12_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_12_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_12_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_13_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_13_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_13_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_14_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_14_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_14_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_15_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_15_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_15_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_16_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_16_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_16_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_17_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_17_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_17_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_18_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_18_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_18_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_19_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_19_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_19_z" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_20_x" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_20_y" Type="decimal" Precision="20" Scale="15" />
+          <Property Name="right_20_z" Type="decimal" Precision="20" Scale="15" />
+        </EntityType>
+        <EntityType Name="organisation">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="email" Type="varchar" MaxLength="25" />
+          <Property Name="address" Type="varchar" MaxLength="100" />
+          <Property Name="tel" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="sign">
+          <Key>
+            <PropertyRef Name="signId" />
+          </Key>
+          <Property Name="signId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="collectionId" Type="varchar" MaxLength="25" Nullable="false" />
+          <Property Name="meaning" Type="varchar" MaxLength="255" Nullable="false" />
+        </EntityType>
+        <EntityType Name="signcollection">
+          <Key>
+            <PropertyRef Name="collectionId" />
+          </Key>
+          <Property Name="collectionId" Type="varchar" MaxLength="25" Nullable="false" />
+          <Property Name="password" Type="varchar" MaxLength="25" Nullable="false" />
+          <Property Name="name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="organisationId" Type="int" Nullable="false" />
+          <Property Name="contactPerson" Type="varchar" MaxLength="30" Nullable="false" />
+          <Property Name="contactPersonEmail" Type="varchar" MaxLength="50" />
+          <Property Name="contactPersonTel" Type="varchar" MaxLength="20" />
+          <Property Name="contactPersonTitle" Type="varchar" MaxLength="30" />
+        </EntityType>
+        <Association Name="frame_fk1">
+          <End Role="sign" Type="Self.sign" Multiplicity="1" />
+          <End Role="frame" Type="Self.frame" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="sign">
+              <PropertyRef Name="signId" />
+            </Principal>
+            <Dependent Role="frame">
+              <PropertyRef Name="signId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="sign_fk1">
+          <End Role="signcollection" Type="Self.signcollection" Multiplicity="1" />
+          <End Role="sign" Type="Self.sign" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="signcollection">
+              <PropertyRef Name="collectionId" />
+            </Principal>
+            <Dependent Role="sign">
+              <PropertyRef Name="collectionId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="signcollection_fk">
+          <End Role="organisation" Type="Self.organisation" Multiplicity="1" />
+          <End Role="signcollection" Type="Self.signcollection" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="organisation">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="signcollection">
+              <PropertyRef Name="organisationId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="SignChatModelStoreContainer">
+          <EntitySet Name="administrator" EntityType="Self.administrator" Schema="sign_chat" store:Type="Tables" />
+          <EntitySet Name="frame" EntityType="Self.frame" Schema="sign_chat" store:Type="Tables" />
+          <EntitySet Name="organisation" EntityType="Self.organisation" Schema="sign_chat" store:Type="Tables" />
+          <EntitySet Name="sign" EntityType="Self.sign" Schema="sign_chat" store:Type="Tables" />
+          <EntitySet Name="signcollection" EntityType="Self.signcollection" Schema="sign_chat" store:Type="Tables" />
+          <AssociationSet Name="frame_fk1" Association="Self.frame_fk1">
+            <End Role="sign" EntitySet="sign" />
+            <End Role="frame" EntitySet="frame" />
+          </AssociationSet>
+          <AssociationSet Name="sign_fk1" Association="Self.sign_fk1">
+            <End Role="signcollection" EntitySet="signcollection" />
+            <End Role="sign" EntitySet="sign" />
+          </AssociationSet>
+          <AssociationSet Name="signcollection_fk" Association="Self.signcollection_fk">
+            <End Role="organisation" EntitySet="organisation" />
+            <End Role="signcollection" EntitySet="signcollection" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="SignChatModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="administrator">
+          <Key>
+            <PropertyRef Name="username" />
+          </Key>
+          <Property Name="username" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="password" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="frame">
+          <Key>
+            <PropertyRef Name="signId" />
+            <PropertyRef Name="sequenceNo" />
+          </Key>
+          <Property Name="signId" Type="Int32" Nullable="false" />
+          <Property Name="sequenceNo" Type="Int32" Nullable="false" />
+          <Property Name="left_0_x" Type="Decimal" />
+          <Property Name="left_0_y" Type="Decimal" />
+          <Property Name="left_0_z" Type="Decimal" />
+          <Property Name="left_1_x" Type="Decimal" />
+          <Property Name="left_1_y" Type="Decimal" />
+          <Property Name="left_1_z" Type="Decimal" />
+          <Property Name="left_2_x" Type="Decimal" />
+          <Property Name="left_2_y" Type="Decimal" />
+          <Property Name="left_2_z" Type="Decimal" />
+          <Property Name="left_3_x" Type="Decimal" />
+          <Property Name="left_3_y" Type="Decimal" />
+          <Property Name="left_3_z" Type="Decimal" />
+          <Property Name="left_4_x" Type="Decimal" />
+          <Property Name="left_4_y" Type="Decimal" />
+          <Property Name="left_4_z" Type="Decimal" />
+          <Property Name="left_5_x" Type="Decimal" />
+          <Property Name="left_5_y" Type="Decimal" />
+          <Property Name="left_5_z" Type="Decimal" />
+          <Property Name="left_6_x" Type="Decimal" />
+          <Property Name="left_6_y" Type="Decimal" />
+          <Property Name="left_6_z" Type="Decimal" />
+          <Property Name="left_7_x" Type="Decimal" />
+          <Property Name="left_7_y" Type="Decimal" />
+          <Property Name="left_7_z" Type="Decimal" />
+          <Property Name="left_8_x" Type="Decimal" />
+          <Property Name="left_8_y" Type="Decimal" />
+          <Property Name="left_8_z" Type="Decimal" />
+          <Property Name="left_9_x" Type="Decimal" />
+          <Property Name="left_9_y" Type="Decimal" />
+          <Property Name="left_9_z" Type="Decimal" />
+          <Property Name="left_10_x" Type="Decimal" />
+          <Property Name="left_10_y" Type="Decimal" />
+          <Property Name="left_10_z" Type="Decimal" />
+          <Property Name="left_11_x" Type="Decimal" />
+          <Property Name="left_11_y" Type="Decimal" />
+          <Property Name="left_11_z" Type="Decimal" />
+          <Property Name="left_12_x" Type="Decimal" />
+          <Property Name="left_12_y" Type="Decimal" />
+          <Property Name="left_12_z" Type="Decimal" />
+          <Property Name="left_13_x" Type="Decimal" />
+          <Property Name="left_13_y" Type="Decimal" />
+          <Property Name="left_13_z" Type="Decimal" />
+          <Property Name="left_14_x" Type="Decimal" />
+          <Property Name="left_14_y" Type="Decimal" />
+          <Property Name="left_14_z" Type="Decimal" />
+          <Property Name="left_15_x" Type="Decimal" />
+          <Property Name="left_15_y" Type="Decimal" />
+          <Property Name="left_15_z" Type="Decimal" />
+          <Property Name="left_16_x" Type="Decimal" />
+          <Property Name="left_16_y" Type="Decimal" />
+          <Property Name="left_16_z" Type="Decimal" />
+          <Property Name="left_17_x" Type="Decimal" />
+          <Property Name="left_17_y" Type="Decimal" />
+          <Property Name="left_17_z" Type="Decimal" />
+          <Property Name="left_18_x" Type="Decimal" />
+          <Property Name="left_18_y" Type="Decimal" />
+          <Property Name="left_18_z" Type="Decimal" />
+          <Property Name="left_19_x" Type="Decimal" />
+          <Property Name="left_19_y" Type="Decimal" />
+          <Property Name="left_19_z" Type="Decimal" />
+          <Property Name="left_20_x" Type="Decimal" />
+          <Property Name="left_20_y" Type="Decimal" />
+          <Property Name="left_20_z" Type="Decimal" />
+          <Property Name="right_0_x" Type="Decimal" />
+          <Property Name="right_0_y" Type="Decimal" />
+          <Property Name="right_0_z" Type="Decimal" />
+          <Property Name="right_1_x" Type="Decimal" />
+          <Property Name="right_1_y" Type="Decimal" />
+          <Property Name="right_1_z" Type="Decimal" />
+          <Property Name="right_2_x" Type="Decimal" />
+          <Property Name="right_2_y" Type="Decimal" />
+          <Property Name="right_2_z" Type="Decimal" />
+          <Property Name="right_3_x" Type="Decimal" />
+          <Property Name="right_3_y" Type="Decimal" />
+          <Property Name="right_3_z" Type="Decimal" />
+          <Property Name="right_4_x" Type="Decimal" />
+          <Property Name="right_4_y" Type="Decimal" />
+          <Property Name="right_4_z" Type="Decimal" />
+          <Property Name="right_5_x" Type="Decimal" />
+          <Property Name="right_5_y" Type="Decimal" />
+          <Property Name="right_5_z" Type="Decimal" />
+          <Property Name="right_6_x" Type="Decimal" />
+          <Property Name="right_6_y" Type="Decimal" />
+          <Property Name="right_6_z" Type="Decimal" />
+          <Property Name="right_7_x" Type="Decimal" />
+          <Property Name="right_7_y" Type="Decimal" />
+          <Property Name="right_7_z" Type="Decimal" />
+          <Property Name="right_8_x" Type="Decimal" />
+          <Property Name="right_8_y" Type="Decimal" />
+          <Property Name="right_8_z" Type="Decimal" />
+          <Property Name="right_9_x" Type="Decimal" />
+          <Property Name="right_9_y" Type="Decimal" />
+          <Property Name="right_9_z" Type="Decimal" />
+          <Property Name="right_10_x" Type="Decimal" />
+          <Property Name="right_10_y" Type="Decimal" />
+          <Property Name="right_10_z" Type="Decimal" />
+          <Property Name="right_11_x" Type="Decimal" />
+          <Property Name="right_11_y" Type="Decimal" />
+          <Property Name="right_11_z" Type="Decimal" />
+          <Property Name="right_12_x" Type="Decimal" />
+          <Property Name="right_12_y" Type="Decimal" />
+          <Property Name="right_12_z" Type="Decimal" />
+          <Property Name="right_13_x" Type="Decimal" />
+          <Property Name="right_13_y" Type="Decimal" />
+          <Property Name="right_13_z" Type="Decimal" />
+          <Property Name="right_14_x" Type="Decimal" />
+          <Property Name="right_14_y" Type="Decimal" />
+          <Property Name="right_14_z" Type="Decimal" />
+          <Property Name="right_15_x" Type="Decimal" />
+          <Property Name="right_15_y" Type="Decimal" />
+          <Property Name="right_15_z" Type="Decimal" />
+          <Property Name="right_16_x" Type="Decimal" />
+          <Property Name="right_16_y" Type="Decimal" />
+          <Property Name="right_16_z" Type="Decimal" />
+          <Property Name="right_17_x" Type="Decimal" />
+          <Property Name="right_17_y" Type="Decimal" />
+          <Property Name="right_17_z" Type="Decimal" />
+          <Property Name="right_18_x" Type="Decimal" />
+          <Property Name="right_18_y" Type="Decimal" />
+          <Property Name="right_18_z" Type="Decimal" />
+          <Property Name="right_19_x" Type="Decimal" />
+          <Property Name="right_19_y" Type="Decimal" />
+          <Property Name="right_19_z" Type="Decimal" />
+          <Property Name="right_20_x" Type="Decimal" />
+          <Property Name="right_20_y" Type="Decimal" />
+          <Property Name="right_20_z" Type="Decimal" />
+          <NavigationProperty Name="sign" Relationship="Self.frame_fk1" FromRole="frame" ToRole="sign" />
+        </EntityType>
+        <EntityType Name="organisation">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="email" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+          <Property Name="address" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="tel" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="signcollection" Relationship="Self.signcollection_fk" FromRole="organisation" ToRole="signcollection" />
+        </EntityType>
+        <EntityType Name="sign">
+          <Key>
+            <PropertyRef Name="signId" />
+          </Key>
+          <Property Name="signId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="collectionId" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="meaning" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="frame" Relationship="Self.frame_fk1" FromRole="sign" ToRole="frame" />
+          <NavigationProperty Name="signcollection" Relationship="Self.sign_fk1" FromRole="sign" ToRole="signcollection" />
+        </EntityType>
+        <EntityType Name="signcollection">
+          <Key>
+            <PropertyRef Name="collectionId" />
+          </Key>
+          <Property Name="collectionId" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="password" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="organisationId" Type="Int32" Nullable="false" />
+          <Property Name="contactPerson" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="contactPersonEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="contactPersonTel" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="contactPersonTitle" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="organisation" Relationship="Self.signcollection_fk" FromRole="signcollection" ToRole="organisation" />
+          <NavigationProperty Name="sign" Relationship="Self.sign_fk1" FromRole="signcollection" ToRole="sign" />
+        </EntityType>
+        <Association Name="frame_fk1">
+          <End Role="sign" Type="Self.sign" Multiplicity="1" />
+          <End Role="frame" Type="Self.frame" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="sign">
+              <PropertyRef Name="signId" />
+            </Principal>
+            <Dependent Role="frame">
+              <PropertyRef Name="signId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="signcollection_fk">
+          <End Role="organisation" Type="Self.organisation" Multiplicity="1" />
+          <End Role="signcollection" Type="Self.signcollection" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="organisation">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="signcollection">
+              <PropertyRef Name="organisationId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="sign_fk1">
+          <End Role="signcollection" Type="Self.signcollection" Multiplicity="1" />
+          <End Role="sign" Type="Self.sign" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="signcollection">
+              <PropertyRef Name="collectionId" />
+            </Principal>
+            <Dependent Role="sign">
+              <PropertyRef Name="collectionId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="database" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="administrator" EntityType="Self.administrator" />
+          <EntitySet Name="frame" EntityType="Self.frame" />
+          <EntitySet Name="organisation" EntityType="Self.organisation" />
+          <EntitySet Name="sign" EntityType="Self.sign" />
+          <EntitySet Name="signcollection" EntityType="Self.signcollection" />
+          <AssociationSet Name="frame_fk1" Association="Self.frame_fk1">
+            <End Role="sign" EntitySet="sign" />
+            <End Role="frame" EntitySet="frame" />
+          </AssociationSet>
+          <AssociationSet Name="signcollection_fk" Association="Self.signcollection_fk">
+            <End Role="organisation" EntitySet="organisation" />
+            <End Role="signcollection" EntitySet="signcollection" />
+          </AssociationSet>
+          <AssociationSet Name="sign_fk1" Association="Self.sign_fk1">
+            <End Role="signcollection" EntitySet="signcollection" />
+            <End Role="sign" EntitySet="sign" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="SignChatModelStoreContainer" CdmEntityContainer="database">
+          <EntitySetMapping Name="administrator">
+            <EntityTypeMapping TypeName="SignChatModel.administrator">
+              <MappingFragment StoreEntitySet="administrator">
+                <ScalarProperty Name="username" ColumnName="username" />
+                <ScalarProperty Name="password" ColumnName="password" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="frame">
+            <EntityTypeMapping TypeName="SignChatModel.frame">
+              <MappingFragment StoreEntitySet="frame">
+                <ScalarProperty Name="signId" ColumnName="signId" />
+                <ScalarProperty Name="sequenceNo" ColumnName="sequenceNo" />
+                <ScalarProperty Name="left_0_x" ColumnName="left_0_x" />
+                <ScalarProperty Name="left_0_y" ColumnName="left_0_y" />
+                <ScalarProperty Name="left_0_z" ColumnName="left_0_z" />
+                <ScalarProperty Name="left_1_x" ColumnName="left_1_x" />
+                <ScalarProperty Name="left_1_y" ColumnName="left_1_y" />
+                <ScalarProperty Name="left_1_z" ColumnName="left_1_z" />
+                <ScalarProperty Name="left_2_x" ColumnName="left_2_x" />
+                <ScalarProperty Name="left_2_y" ColumnName="left_2_y" />
+                <ScalarProperty Name="left_2_z" ColumnName="left_2_z" />
+                <ScalarProperty Name="left_3_x" ColumnName="left_3_x" />
+                <ScalarProperty Name="left_3_y" ColumnName="left_3_y" />
+                <ScalarProperty Name="left_3_z" ColumnName="left_3_z" />
+                <ScalarProperty Name="left_4_x" ColumnName="left_4_x" />
+                <ScalarProperty Name="left_4_y" ColumnName="left_4_y" />
+                <ScalarProperty Name="left_4_z" ColumnName="left_4_z" />
+                <ScalarProperty Name="left_5_x" ColumnName="left_5_x" />
+                <ScalarProperty Name="left_5_y" ColumnName="left_5_y" />
+                <ScalarProperty Name="left_5_z" ColumnName="left_5_z" />
+                <ScalarProperty Name="left_6_x" ColumnName="left_6_x" />
+                <ScalarProperty Name="left_6_y" ColumnName="left_6_y" />
+                <ScalarProperty Name="left_6_z" ColumnName="left_6_z" />
+                <ScalarProperty Name="left_7_x" ColumnName="left_7_x" />
+                <ScalarProperty Name="left_7_y" ColumnName="left_7_y" />
+                <ScalarProperty Name="left_7_z" ColumnName="left_7_z" />
+                <ScalarProperty Name="left_8_x" ColumnName="left_8_x" />
+                <ScalarProperty Name="left_8_y" ColumnName="left_8_y" />
+                <ScalarProperty Name="left_8_z" ColumnName="left_8_z" />
+                <ScalarProperty Name="left_9_x" ColumnName="left_9_x" />
+                <ScalarProperty Name="left_9_y" ColumnName="left_9_y" />
+                <ScalarProperty Name="left_9_z" ColumnName="left_9_z" />
+                <ScalarProperty Name="left_10_x" ColumnName="left_10_x" />
+                <ScalarProperty Name="left_10_y" ColumnName="left_10_y" />
+                <ScalarProperty Name="left_10_z" ColumnName="left_10_z" />
+                <ScalarProperty Name="left_11_x" ColumnName="left_11_x" />
+                <ScalarProperty Name="left_11_y" ColumnName="left_11_y" />
+                <ScalarProperty Name="left_11_z" ColumnName="left_11_z" />
+                <ScalarProperty Name="left_12_x" ColumnName="left_12_x" />
+                <ScalarProperty Name="left_12_y" ColumnName="left_12_y" />
+                <ScalarProperty Name="left_12_z" ColumnName="left_12_z" />
+                <ScalarProperty Name="left_13_x" ColumnName="left_13_x" />
+                <ScalarProperty Name="left_13_y" ColumnName="left_13_y" />
+                <ScalarProperty Name="left_13_z" ColumnName="left_13_z" />
+                <ScalarProperty Name="left_14_x" ColumnName="left_14_x" />
+                <ScalarProperty Name="left_14_y" ColumnName="left_14_y" />
+                <ScalarProperty Name="left_14_z" ColumnName="left_14_z" />
+                <ScalarProperty Name="left_15_x" ColumnName="left_15_x" />
+                <ScalarProperty Name="left_15_y" ColumnName="left_15_y" />
+                <ScalarProperty Name="left_15_z" ColumnName="left_15_z" />
+                <ScalarProperty Name="left_16_x" ColumnName="left_16_x" />
+                <ScalarProperty Name="left_16_y" ColumnName="left_16_y" />
+                <ScalarProperty Name="left_16_z" ColumnName="left_16_z" />
+                <ScalarProperty Name="left_17_x" ColumnName="left_17_x" />
+                <ScalarProperty Name="left_17_y" ColumnName="left_17_y" />
+                <ScalarProperty Name="left_17_z" ColumnName="left_17_z" />
+                <ScalarProperty Name="left_18_x" ColumnName="left_18_x" />
+                <ScalarProperty Name="left_18_y" ColumnName="left_18_y" />
+                <ScalarProperty Name="left_18_z" ColumnName="left_18_z" />
+                <ScalarProperty Name="left_19_x" ColumnName="left_19_x" />
+                <ScalarProperty Name="left_19_y" ColumnName="left_19_y" />
+                <ScalarProperty Name="left_19_z" ColumnName="left_19_z" />
+                <ScalarProperty Name="left_20_x" ColumnName="left_20_x" />
+                <ScalarProperty Name="left_20_y" ColumnName="left_20_y" />
+                <ScalarProperty Name="left_20_z" ColumnName="left_20_z" />
+                <ScalarProperty Name="right_0_x" ColumnName="right_0_x" />
+                <ScalarProperty Name="right_0_y" ColumnName="right_0_y" />
+                <ScalarProperty Name="right_0_z" ColumnName="right_0_z" />
+                <ScalarProperty Name="right_1_x" ColumnName="right_1_x" />
+                <ScalarProperty Name="right_1_y" ColumnName="right_1_y" />
+                <ScalarProperty Name="right_1_z" ColumnName="right_1_z" />
+                <ScalarProperty Name="right_2_x" ColumnName="right_2_x" />
+                <ScalarProperty Name="right_2_y" ColumnName="right_2_y" />
+                <ScalarProperty Name="right_2_z" ColumnName="right_2_z" />
+                <ScalarProperty Name="right_3_x" ColumnName="right_3_x" />
+                <ScalarProperty Name="right_3_y" ColumnName="right_3_y" />
+                <ScalarProperty Name="right_3_z" ColumnName="right_3_z" />
+                <ScalarProperty Name="right_4_x" ColumnName="right_4_x" />
+                <ScalarProperty Name="right_4_y" ColumnName="right_4_y" />
+                <ScalarProperty Name="right_4_z" ColumnName="right_4_z" />
+                <ScalarProperty Name="right_5_x" ColumnName="right_5_x" />
+                <ScalarProperty Name="right_5_y" ColumnName="right_5_y" />
+                <ScalarProperty Name="right_5_z" ColumnName="right_5_z" />
+                <ScalarProperty Name="right_6_x" ColumnName="right_6_x" />
+                <ScalarProperty Name="right_6_y" ColumnName="right_6_y" />
+                <ScalarProperty Name="right_6_z" ColumnName="right_6_z" />
+                <ScalarProperty Name="right_7_x" ColumnName="right_7_x" />
+                <ScalarProperty Name="right_7_y" ColumnName="right_7_y" />
+                <ScalarProperty Name="right_7_z" ColumnName="right_7_z" />
+                <ScalarProperty Name="right_8_x" ColumnName="right_8_x" />
+                <ScalarProperty Name="right_8_y" ColumnName="right_8_y" />
+                <ScalarProperty Name="right_8_z" ColumnName="right_8_z" />
+                <ScalarProperty Name="right_9_x" ColumnName="right_9_x" />
+                <ScalarProperty Name="right_9_y" ColumnName="right_9_y" />
+                <ScalarProperty Name="right_9_z" ColumnName="right_9_z" />
+                <ScalarProperty Name="right_10_x" ColumnName="right_10_x" />
+                <ScalarProperty Name="right_10_y" ColumnName="right_10_y" />
+                <ScalarProperty Name="right_10_z" ColumnName="right_10_z" />
+                <ScalarProperty Name="right_11_x" ColumnName="right_11_x" />
+                <ScalarProperty Name="right_11_y" ColumnName="right_11_y" />
+                <ScalarProperty Name="right_11_z" ColumnName="right_11_z" />
+                <ScalarProperty Name="right_12_x" ColumnName="right_12_x" />
+                <ScalarProperty Name="right_12_y" ColumnName="right_12_y" />
+                <ScalarProperty Name="right_12_z" ColumnName="right_12_z" />
+                <ScalarProperty Name="right_13_x" ColumnName="right_13_x" />
+                <ScalarProperty Name="right_13_y" ColumnName="right_13_y" />
+                <ScalarProperty Name="right_13_z" ColumnName="right_13_z" />
+                <ScalarProperty Name="right_14_x" ColumnName="right_14_x" />
+                <ScalarProperty Name="right_14_y" ColumnName="right_14_y" />
+                <ScalarProperty Name="right_14_z" ColumnName="right_14_z" />
+                <ScalarProperty Name="right_15_x" ColumnName="right_15_x" />
+                <ScalarProperty Name="right_15_y" ColumnName="right_15_y" />
+                <ScalarProperty Name="right_15_z" ColumnName="right_15_z" />
+                <ScalarProperty Name="right_16_x" ColumnName="right_16_x" />
+                <ScalarProperty Name="right_16_y" ColumnName="right_16_y" />
+                <ScalarProperty Name="right_16_z" ColumnName="right_16_z" />
+                <ScalarProperty Name="right_17_x" ColumnName="right_17_x" />
+                <ScalarProperty Name="right_17_y" ColumnName="right_17_y" />
+                <ScalarProperty Name="right_17_z" ColumnName="right_17_z" />
+                <ScalarProperty Name="right_18_x" ColumnName="right_18_x" />
+                <ScalarProperty Name="right_18_y" ColumnName="right_18_y" />
+                <ScalarProperty Name="right_18_z" ColumnName="right_18_z" />
+                <ScalarProperty Name="right_19_x" ColumnName="right_19_x" />
+                <ScalarProperty Name="right_19_y" ColumnName="right_19_y" />
+                <ScalarProperty Name="right_19_z" ColumnName="right_19_z" />
+                <ScalarProperty Name="right_20_x" ColumnName="right_20_x" />
+                <ScalarProperty Name="right_20_y" ColumnName="right_20_y" />
+                <ScalarProperty Name="right_20_z" ColumnName="right_20_z" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="organisation">
+            <EntityTypeMapping TypeName="SignChatModel.organisation">
+              <MappingFragment StoreEntitySet="organisation">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="address" ColumnName="address" />
+                <ScalarProperty Name="tel" ColumnName="tel" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sign">
+            <EntityTypeMapping TypeName="SignChatModel.sign">
+              <MappingFragment StoreEntitySet="sign">
+                <ScalarProperty Name="signId" ColumnName="signId" />
+                <ScalarProperty Name="collectionId" ColumnName="collectionId" />
+                <ScalarProperty Name="meaning" ColumnName="meaning" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="signcollection">
+            <EntityTypeMapping TypeName="SignChatModel.signcollection">
+              <MappingFragment StoreEntitySet="signcollection">
+                <ScalarProperty Name="collectionId" ColumnName="collectionId" />
+                <ScalarProperty Name="password" ColumnName="password" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="organisationId" ColumnName="organisationId" />
+                <ScalarProperty Name="contactPerson" ColumnName="contactPerson" />
+                <ScalarProperty Name="contactPersonEmail" ColumnName="contactPersonEmail" />
+                <ScalarProperty Name="contactPersonTel" ColumnName="contactPersonTel" />
+                <ScalarProperty Name="contactPersonTitle" ColumnName="contactPersonTitle" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="無" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

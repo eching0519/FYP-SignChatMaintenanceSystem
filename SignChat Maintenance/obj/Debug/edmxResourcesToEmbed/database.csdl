@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SignChatModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="administrator">
+    <Key>
+      <PropertyRef Name="username" />
+    </Key>
+    <Property Name="username" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="frame">
+    <Key>
+      <PropertyRef Name="signId" />
+      <PropertyRef Name="sequenceNo" />
+    </Key>
+    <Property Name="signId" Type="Int32" Nullable="false" />
+    <Property Name="sequenceNo" Type="Int32" Nullable="false" />
+    <Property Name="left_0_x" Type="Decimal" />
+    <Property Name="left_0_y" Type="Decimal" />
+    <Property Name="left_0_z" Type="Decimal" />
+    <Property Name="left_1_x" Type="Decimal" />
+    <Property Name="left_1_y" Type="Decimal" />
+    <Property Name="left_1_z" Type="Decimal" />
+    <Property Name="left_2_x" Type="Decimal" />
+    <Property Name="left_2_y" Type="Decimal" />
+    <Property Name="left_2_z" Type="Decimal" />
+    <Property Name="left_3_x" Type="Decimal" />
+    <Property Name="left_3_y" Type="Decimal" />
+    <Property Name="left_3_z" Type="Decimal" />
+    <Property Name="left_4_x" Type="Decimal" />
+    <Property Name="left_4_y" Type="Decimal" />
+    <Property Name="left_4_z" Type="Decimal" />
+    <Property Name="left_5_x" Type="Decimal" />
+    <Property Name="left_5_y" Type="Decimal" />
+    <Property Name="left_5_z" Type="Decimal" />
+    <Property Name="left_6_x" Type="Decimal" />
+    <Property Name="left_6_y" Type="Decimal" />
+    <Property Name="left_6_z" Type="Decimal" />
+    <Property Name="left_7_x" Type="Decimal" />
+    <Property Name="left_7_y" Type="Decimal" />
+    <Property Name="left_7_z" Type="Decimal" />
+    <Property Name="left_8_x" Type="Decimal" />
+    <Property Name="left_8_y" Type="Decimal" />
+    <Property Name="left_8_z" Type="Decimal" />
+    <Property Name="left_9_x" Type="Decimal" />
+    <Property Name="left_9_y" Type="Decimal" />
+    <Property Name="left_9_z" Type="Decimal" />
+    <Property Name="left_10_x" Type="Decimal" />
+    <Property Name="left_10_y" Type="Decimal" />
+    <Property Name="left_10_z" Type="Decimal" />
+    <Property Name="left_11_x" Type="Decimal" />
+    <Property Name="left_11_y" Type="Decimal" />
+    <Property Name="left_11_z" Type="Decimal" />
+    <Property Name="left_12_x" Type="Decimal" />
+    <Property Name="left_12_y" Type="Decimal" />
+    <Property Name="left_12_z" Type="Decimal" />
+    <Property Name="left_13_x" Type="Decimal" />
+    <Property Name="left_13_y" Type="Decimal" />
+    <Property Name="left_13_z" Type="Decimal" />
+    <Property Name="left_14_x" Type="Decimal" />
+    <Property Name="left_14_y" Type="Decimal" />
+    <Property Name="left_14_z" Type="Decimal" />
+    <Property Name="left_15_x" Type="Decimal" />
+    <Property Name="left_15_y" Type="Decimal" />
+    <Property Name="left_15_z" Type="Decimal" />
+    <Property Name="left_16_x" Type="Decimal" />
+    <Property Name="left_16_y" Type="Decimal" />
+    <Property Name="left_16_z" Type="Decimal" />
+    <Property Name="left_17_x" Type="Decimal" />
+    <Property Name="left_17_y" Type="Decimal" />
+    <Property Name="left_17_z" Type="Decimal" />
+    <Property Name="left_18_x" Type="Decimal" />
+    <Property Name="left_18_y" Type="Decimal" />
+    <Property Name="left_18_z" Type="Decimal" />
+    <Property Name="left_19_x" Type="Decimal" />
+    <Property Name="left_19_y" Type="Decimal" />
+    <Property Name="left_19_z" Type="Decimal" />
+    <Property Name="left_20_x" Type="Decimal" />
+    <Property Name="left_20_y" Type="Decimal" />
+    <Property Name="left_20_z" Type="Decimal" />
+    <Property Name="right_0_x" Type="Decimal" />
+    <Property Name="right_0_y" Type="Decimal" />
+    <Property Name="right_0_z" Type="Decimal" />
+    <Property Name="right_1_x" Type="Decimal" />
+    <Property Name="right_1_y" Type="Decimal" />
+    <Property Name="right_1_z" Type="Decimal" />
+    <Property Name="right_2_x" Type="Decimal" />
+    <Property Name="right_2_y" Type="Decimal" />
+    <Property Name="right_2_z" Type="Decimal" />
+    <Property Name="right_3_x" Type="Decimal" />
+    <Property Name="right_3_y" Type="Decimal" />
+    <Property Name="right_3_z" Type="Decimal" />
+    <Property Name="right_4_x" Type="Decimal" />
+    <Property Name="right_4_y" Type="Decimal" />
+    <Property Name="right_4_z" Type="Decimal" />
+    <Property Name="right_5_x" Type="Decimal" />
+    <Property Name="right_5_y" Type="Decimal" />
+    <Property Name="right_5_z" Type="Decimal" />
+    <Property Name="right_6_x" Type="Decimal" />
+    <Property Name="right_6_y" Type="Decimal" />
+    <Property Name="right_6_z" Type="Decimal" />
+    <Property Name="right_7_x" Type="Decimal" />
+    <Property Name="right_7_y" Type="Decimal" />
+    <Property Name="right_7_z" Type="Decimal" />
+    <Property Name="right_8_x" Type="Decimal" />
+    <Property Name="right_8_y" Type="Decimal" />
+    <Property Name="right_8_z" Type="Decimal" />
+    <Property Name="right_9_x" Type="Decimal" />
+    <Property Name="right_9_y" Type="Decimal" />
+    <Property Name="right_9_z" Type="Decimal" />
+    <Property Name="right_10_x" Type="Decimal" />
+    <Property Name="right_10_y" Type="Decimal" />
+    <Property Name="right_10_z" Type="Decimal" />
+    <Property Name="right_11_x" Type="Decimal" />
+    <Property Name="right_11_y" Type="Decimal" />
+    <Property Name="right_11_z" Type="Decimal" />
+    <Property Name="right_12_x" Type="Decimal" />
+    <Property Name="right_12_y" Type="Decimal" />
+    <Property Name="right_12_z" Type="Decimal" />
+    <Property Name="right_13_x" Type="Decimal" />
+    <Property Name="right_13_y" Type="Decimal" />
+    <Property Name="right_13_z" Type="Decimal" />
+    <Property Name="right_14_x" Type="Decimal" />
+    <Property Name="right_14_y" Type="Decimal" />
+    <Property Name="right_14_z" Type="Decimal" />
+    <Property Name="right_15_x" Type="Decimal" />
+    <Property Name="right_15_y" Type="Decimal" />
+    <Property Name="right_15_z" Type="Decimal" />
+    <Property Name="right_16_x" Type="Decimal" />
+    <Property Name="right_16_y" Type="Decimal" />
+    <Property Name="right_16_z" Type="Decimal" />
+    <Property Name="right_17_x" Type="Decimal" />
+    <Property Name="right_17_y" Type="Decimal" />
+    <Property Name="right_17_z" Type="Decimal" />
+    <Property Name="right_18_x" Type="Decimal" />
+    <Property Name="right_18_y" Type="Decimal" />
+    <Property Name="right_18_z" Type="Decimal" />
+    <Property Name="right_19_x" Type="Decimal" />
+    <Property Name="right_19_y" Type="Decimal" />
+    <Property Name="right_19_z" Type="Decimal" />
+    <Property Name="right_20_x" Type="Decimal" />
+    <Property Name="right_20_y" Type="Decimal" />
+    <Property Name="right_20_z" Type="Decimal" />
+    <NavigationProperty Name="sign" Relationship="Self.frame_fk1" FromRole="frame" ToRole="sign" />
+  </EntityType>
+  <EntityType Name="organisation">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="address" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="tel" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="signcollection" Relationship="Self.signcollection_fk" FromRole="organisation" ToRole="signcollection" />
+  </EntityType>
+  <EntityType Name="sign">
+    <Key>
+      <PropertyRef Name="signId" />
+    </Key>
+    <Property Name="signId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="collectionId" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="meaning" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="frame" Relationship="Self.frame_fk1" FromRole="sign" ToRole="frame" />
+    <NavigationProperty Name="signcollection" Relationship="Self.sign_fk1" FromRole="sign" ToRole="signcollection" />
+  </EntityType>
+  <EntityType Name="signcollection">
+    <Key>
+      <PropertyRef Name="collectionId" />
+    </Key>
+    <Property Name="collectionId" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="organisationId" Type="Int32" Nullable="false" />
+    <Property Name="contactPerson" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="contactPersonEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="contactPersonTel" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="contactPersonTitle" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="organisation" Relationship="Self.signcollection_fk" FromRole="signcollection" ToRole="organisation" />
+    <NavigationProperty Name="sign" Relationship="Self.sign_fk1" FromRole="signcollection" ToRole="sign" />
+  </EntityType>
+  <Association Name="frame_fk1">
+    <End Role="sign" Type="Self.sign" Multiplicity="1" />
+    <End Role="frame" Type="Self.frame" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sign">
+        <PropertyRef Name="signId" />
+      </Principal>
+      <Dependent Role="frame">
+        <PropertyRef Name="signId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="signcollection_fk">
+    <End Role="organisation" Type="Self.organisation" Multiplicity="1" />
+    <End Role="signcollection" Type="Self.signcollection" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="organisation">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="signcollection">
+        <PropertyRef Name="organisationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="sign_fk1">
+    <End Role="signcollection" Type="Self.signcollection" Multiplicity="1" />
+    <End Role="sign" Type="Self.sign" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="signcollection">
+        <PropertyRef Name="collectionId" />
+      </Principal>
+      <Dependent Role="sign">
+        <PropertyRef Name="collectionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="database" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="administrator" EntityType="Self.administrator" />
+    <EntitySet Name="frame" EntityType="Self.frame" />
+    <EntitySet Name="organisation" EntityType="Self.organisation" />
+    <EntitySet Name="sign" EntityType="Self.sign" />
+    <EntitySet Name="signcollection" EntityType="Self.signcollection" />
+    <AssociationSet Name="frame_fk1" Association="Self.frame_fk1">
+      <End Role="sign" EntitySet="sign" />
+      <End Role="frame" EntitySet="frame" />
+    </AssociationSet>
+    <AssociationSet Name="signcollection_fk" Association="Self.signcollection_fk">
+      <End Role="organisation" EntitySet="organisation" />
+      <End Role="signcollection" EntitySet="signcollection" />
+    </AssociationSet>
+    <AssociationSet Name="sign_fk1" Association="Self.sign_fk1">
+      <End Role="signcollection" EntitySet="signcollection" />
+      <End Role="sign" EntitySet="sign" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
